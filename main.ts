@@ -1,3 +1,9 @@
+input.onGesture(Gesture.TiltRight, function () {
+    if (_2_2 == 0) {
+        led.unplot(2, 2)
+        led.plot(3, 2)
+    }
+})
 input.onGesture(Gesture.TiltLeft, function () {
     if (_2_2 == 0) {
         led.unplot(2, 2)
